@@ -1,3 +1,5 @@
+# Programa que solicita la quintupla de un AFD o AFN para crearlo y después verificar cadenas que son aceptadas o rechazadas.
+
 class Automata: # Definición de la Clase Automata para representar un AFD o un AFN.
     def __init__(self, estados, alfabeto, transiciones, estado_inicial, estados_aceptacion, es_determinista=True): # Inicialización del autómata con su quintupla y un estado para saber si es un AFD o un AFN
         # self se utiliza para las instancias de una clase y poder acceder a sus atributos, variables y metodos.
